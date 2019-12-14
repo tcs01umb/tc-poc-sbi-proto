@@ -12,6 +12,7 @@ import { FaCheckCircle,FaTimesCircle } from 'react-icons/fa';
 import Grid from "@material-ui/core/Grid";
 import {connect} from "react-redux";
 import {setAddressInfoType} from "../../actions";
+import Address from './Address'
 
 const useStyles = makeStyles(theme => ({
   button: {
@@ -51,12 +52,7 @@ render() {
         <Grid container style={useStyles.grid}>
           <Grid sm={2} />
           <Grid xs={12} sm={8} style={useStyles.InputWidth}>
-            <Input
-                style={useStyles.InputWidth}
-                placeholder="Address"
-                name="address"
-                onChange={this.changeHandler}
-            ></Input>
+              <Address />
           </Grid>
           <Grid sm={2} />
         </Grid>

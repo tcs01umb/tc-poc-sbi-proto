@@ -82,8 +82,6 @@ const products =[
           switch(this.props.val)
           {
               case 1: return <ZipGetter setStateZipCode={this.props.setStateZipCode} />
-              // case 2: return <AddressAutoComplete value={this.props.city}></AddressAutoComplete>
-              // case 1: return <h1>Hello1</h1>
               case 2: return <AddressAutoComplete />
               case 3: return  <BusinessSelection />
               case 4: return  <CoverageSelection />
