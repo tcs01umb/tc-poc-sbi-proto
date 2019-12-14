@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3314460b.chunk.css",
+    "main.js": "/static/js/main.2368f9bc.chunk.js",
+    "main.js.map": "/static/js/main.2368f9bc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9ca46dac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9ca46dac.js.map",
+    "static/css/2.d495f849.chunk.css": "/static/css/2.d495f849.chunk.css",
+    "static/js/2.667d72d1.chunk.js": "/static/js/2.667d72d1.chunk.js",
+    "static/js/2.667d72d1.chunk.js.map": "/static/js/2.667d72d1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.31363f43cf57b1eef1dd65f40c90c0bc.js": "/precache-manifest.31363f43cf57b1eef1dd65f40c90c0bc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d495f849.chunk.css.map": "/static/css/2.d495f849.chunk.css.map",
+    "static/css/main.3314460b.chunk.css.map": "/static/css/main.3314460b.chunk.css.map",
+    "static/media/carlogo.png": "/static/media/carlogo.f067cfa4.png",
+    "static/media/sbilogo.png": "/static/media/sbilogo.d18c4ba1.png"
+  }
+}

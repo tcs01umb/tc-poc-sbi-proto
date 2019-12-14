@@ -1,0 +1,51 @@
+
+#button1
+{
+  background-color:white;
+  color:#0e2e49;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 170px;
+  margin-top: 5px;
+}
+#button2{
+  background-color: #0e2e49;
+    color: white;
+    border-radius: 50px;
+    width: 170px;
+    margin-bottom: 5px;
+}
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.startedButton{
+    margin-left: 200px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .MuiGrid-container{
+    flex-direction: row;
+  }
+  .MuiGrid-item
+  {
+   text-align: center !important;
+   /*commented by Ragini */ 
+    /* margin-left: 12% !important; */
+ }
+ .startedButton{
+  display: block;
+  max-width: 300px;
+  margin: auto;}
+
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: rgb(4, 28, 61) !important;
+}
